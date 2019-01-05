@@ -1,0 +1,78 @@
+bodyc {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnac {
+  overflow: hidden;
+  background-color: #02376B;
+  
+}
+
+.topnab a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnab a:hover {
+	color: lightblue;
+	font-weight: bold;
+}
+
+.text-blockk:hover{
+	background-color: orange;
+}
+
+.actife {
+  background-color: #02376B;
+  color: white;
+  margin-left: 90px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+.E-content,.E-auto{
+	margin-left:auto;
+	margin-right:auto}
+	
+.E-content{max-width:980px}
+
+.E-display-container:hover .E-display-hover{
+	display:block
+	}
+.E-display-container:hover span.E-display-hover{
+	display:inline-block
+	}
+
+
+.E-tooltip,.E-display-container{position:relative}
+
+
+.E-btn,.E-button{
+	border:none;
+display:inline-block;
+padding:8px 16px;
+vertical-align:middle;
+overflow:hidden;
+text-decoration:none;
+color:white;
+background-color:blue;
+text-align:center;
+cursor:pointer;
+white-space:nowrap}
+
+
+.E-btn,.E-button{
+	-webkit-touch-callout:none;
+-webkit-user-select:none;
+-khtml-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+user-select:none}   

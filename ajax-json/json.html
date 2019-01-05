@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>PERSONAL DATA INFO</h2>
+
+NAMA :<b id="A1"></b><br>
+USIA :<b id="A2"></b><br>
+KOTA :<i id="A3"></i>
+
+<script>
+
+var myJSON = '{ "name":"Dzikri", "age":20, "city":"Semarang" }';
+var myObj = JSON.parse(myJSON);
+document.getElementById("A1").innerHTML = myObj.name;
+document.getElementById("A2").innerHTML = myObj.age;
+document.getElementById("A3").innerHTML = myObj.city;
+
+</script>
+
+<script>
+        
+        console.log("Cek umur");
+        console.log(A2<9);
+</script>
+
+</body>
+</html>
